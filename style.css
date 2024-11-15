@@ -23,6 +23,14 @@
     
 }
 
+body{
+    font-size: 1px;
+}
+
+p{
+    font-size: 1rem;
+}
+
 .title1{
     font-family: 'MyFont2' , HostGrotesk;
     font-weight: 1000;
@@ -109,10 +117,10 @@
 
 .container{
     display: grid;
-    height: 90vh;
+    height: 51rem;
     margin-left: 16px;
     margin-right: 16px;
-    grid-template-rows:1fr 1fr 1.5fr  ;
+    grid-template-rows:1fr 1fr 1.5fr;
     grid-template-columns:1fr 1fr 0.5fr 1fr;
 
 }
@@ -146,7 +154,7 @@
     margin: 5px;
     border-radius: 30px;
     background-image: url('d6931ff713b383fea51d9a84c6b9f44e-removebg-preview.png');
-    background-size: contain;
+    background-size:auto;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -155,13 +163,13 @@
     padding: 30px;
     grid-row: 3 / 3 ;
     grid-column:2 / 3 ;
-    background-color: rgb(91, 108, 100);
+    background-color: rgb(193, 110, 60);
     margin: 5px;
     border-radius: 30px;
-    background-image: url('GORE-TEX-Fly-Air-Cap--Ash-Green-20220319020434.png');
-    background-size: contain;
-    background-size: 400px;
-    background-position:center 20px;
+    background-image: url('8cd632ac83601dcb98ac0728e9a297a7.jpg');
+    /* background-size: contain; */
+    background-size: 550px;
+    background-position:center center;
     background-repeat: no-repeat;
 }
 .item4{
@@ -172,7 +180,7 @@
     background-image: url(Creative\ portrait\ photo\ idea.jpeg);
     background-size:contain;
     background-repeat: no-repeat;
-    background-size: 900px;
+    background-size: 850px;
     /* background-position: -450px -190px; */
     background-position: center -240px;
     margin: 5px;
@@ -241,6 +249,7 @@
     margin-left: 10px;
     align-self: center;
     font-family: 'MyFont2' , HostGrotesk;
+    font-size: 15em;
     font-weight: 500;
     color: rgb(0, 0, 0);
 }
@@ -250,7 +259,7 @@
     height:35px ;
     width: 35px;
     margin-top: 3px;
-    margin-left: 30px;
+    margin-left: 42px;
     background-color: rgba(0, 0, 0, 0.76);
     
 }
@@ -277,6 +286,7 @@
     margin-left: 10px;
     align-self: center;
     font-family: 'MyFont2' , HostGrotesk;
+    font-size: 15em;
     font-weight: 500;
     color: aliceblue;
 }
@@ -286,7 +296,7 @@
     height:35px ;
     width: 35px;
     margin-top: 3px;
-    margin-left: 30px;
+    margin-left: 42px;
     background-color: rgba(231, 255, 253, 0.815);
 }
 
