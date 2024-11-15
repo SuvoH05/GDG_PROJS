@@ -61,8 +61,18 @@ p{
     font-family: 'MyFont2' , HostGrotesk;
     font-weight: 700;
     font-size: 14px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    transition:ease-out 0.2s;
 }
 
+.navtext:hover{
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(230, 103, 0);
+    
+}
 .search{
     
     display: flex;
@@ -114,6 +124,7 @@ p{
     color: black;
     padding: 15px;
 }
+
 
 .container{
     display: grid;
@@ -190,6 +201,9 @@ p{
     align-items: flex-end;
 }
 
+
+
+
 .p1{
     font-family: 'MyFont' , oddval-extrabold;
     font-size: 70px;
@@ -232,6 +246,7 @@ p{
     color: rgb(250, 250, 250);
     
 }
+
 
 /* learn more button */
 .contact{
@@ -303,5 +318,30 @@ p{
 .imgc{
     width: 25px;
     fill: rgb(255, 255, 255);
+    
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 47%;
+    left: 63%;
+    border: 1px solid rgba(255, 255, 255, 0.795);
+    background-color: rgba(255, 255, 255, 0.315);
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    
+}
+
+.p5{
+    font-family: 'MyFont2' , HostGrotesk;
+    line-height: 15px;
+    font-weight: 500;
+    font-size: 14em;
+    color: white;
+    
     
 }
